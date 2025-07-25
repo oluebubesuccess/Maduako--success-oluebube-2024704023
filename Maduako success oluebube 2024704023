@@ -1,0 +1,28 @@
+score = int(input("Enter your score (0 - 100): "))
+
+    # Check if the score is within the acceptable range
+    if 0 <= score <= 100:
+        if 70 <= score <= 
+
+            grade = 'A'
+        elif 60 <= score <= 
+
+            grade = 'B'
+        elif 50 <= score <= 
+
+            grade = 'C'
+        elif 45 <= score <= 
+
+            grade = 'D'
+        elif 40 <= score <= 
+
+            grade = 'E'
+        else:
+            grade = 'F'
+
+        print(f"YES! Your grade is: {grade}")
+    else:
+        print("Invalid score. Score must be between 0 and 100.")
+
+except ValueError:
+    print("Invalid input. Please enter a whole number.")
